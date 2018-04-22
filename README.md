@@ -232,7 +232,7 @@ For DeepLab\:
 
 3. To perform experiments, run the python scripts with the corresponding config file as input. For example, to train and test deformable convnets on COCO with ResNet-v1-101, use the following command
     ```
-    python experiments\rfcn\rfcn_end2end_train_test.py --cfg experiments\rfcn\cfgs\resnet_v1_101_coco_trainval_rfcn_dcn_end2end_ohem.yaml
+    python experiments/rfcn/rfcn_end2end_train_test.py --cfg experiments/rfcn/cfgs/resnet_v1_101_coco_trainval_rfcn_dcn_end2end_ohem.yaml
     ```
     A cache folder would be created automatically to save the model and the log under `output/rfcn_dcn_coco/`.
 4. Please find more details in config files and in our code.
